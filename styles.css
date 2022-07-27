@@ -1,0 +1,85 @@
+:root {
+    --bg-color: hsl(212, 45%, 89%);
+    /* Light Gray */
+    --primary-color: hsl(218, 44%, 22%);
+    /* Dark Blue */
+    --secondary-color: hsl(220, 15%, 55%);
+    /* Grayish Blue */
+    --neutral-color: hsl(0, 0%, 100%);
+
+    --primary-font: 'Outfit', sans-serif;
+    --secondary-font-size: 15px;
+    --font-bold: 700;
+}
+
+/* || Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    background-color: var(--bg-color);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    font-family: var(--primary-font);
+}
+
+.card {
+    max-width: 320px;
+    padding: 1rem;
+    margin-inline: 1rem;
+
+    background-color: var(--neutral-color);
+    border-radius: 20px;
+}
+
+.qr-img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.title,
+.description {
+    text-align: center;
+    font-family: inherit;
+
+    margin-inline: 0.5rem;
+}
+
+.title {
+    color: var(--primary-color);
+    margin-block: 1.5rem;
+
+    font-weight: var(--font-bold);
+}
+
+.description {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+
+    font-size: var(--secondary-font-size);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
