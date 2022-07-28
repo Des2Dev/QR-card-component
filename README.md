@@ -48,4 +48,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@Des2Dev](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Des2Dev](https://www.frontendmentor.io/profile/Des2Dev)
